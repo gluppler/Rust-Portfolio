@@ -1,7 +1,7 @@
 //Function Example
 //Rust uses snake case for function and variables names
 //Such as letters as lowercase and underscores as separators
-/* 
+
 fn main() {
     println!("Hello, world!");
 
@@ -11,7 +11,7 @@ fn main() {
 fn another_function() {
     println!("Another function.");
 }
-*/
+
 
 
 //Parameters Example
@@ -49,6 +49,7 @@ fn main() {
 
 //Expression Example
 //An expression unlike a statement does not need a semicolon, that is the only difference between a statement and a expression
+/*
 fn main() {
 
     let y = {
@@ -60,9 +61,10 @@ fn main() {
 
     println!("The value of y is: {}", y);
 }
-
+*/
 //Functions with Return Values Example
 //Function, return type, return value.
+/* 
 fn five() -> i32 {
     //return value
     5
@@ -74,8 +76,9 @@ fn main() {
 
     println!("The value of x is: {}", x);
 }
-
+*/
 //Functions with Return Values 2 Example
+/* 
 fn main() {
     let x = plus_one(5);
 
@@ -85,6 +88,7 @@ fn main() {
 fn plus_one(x: i32) -> i32 {
     x + 1
 }
+*/
 
 /*
 //Function with Return Values 3 Example with Error
