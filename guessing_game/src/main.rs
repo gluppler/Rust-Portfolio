@@ -1,6 +1,6 @@
-use std::io; //Standard Library of Input/Output in Rust Lang
 use rand::Rng; //Random Library of RNG in Rust Lang
 use std::cmp::Ordering;
+use std::io; //Standard Library of Input/Output in Rust Lang
 
 //Signed integer = negative numericals
 //Unsigned integer = positive numericals
@@ -17,7 +17,7 @@ use std::cmp::Ordering;
 fn main() { //Start fn = function pointer similar to how classes are made in python or java
     println!("Guess the number!"); //Print statement in Rust Lang
 
-    let secret_number = rand::thread_rng().gen_range(1..101);
+    let secret_number = rand::thread_rng().gen_range(1,101);
 
     //println!("The secret number is: {}", secret_number);
     loop {
